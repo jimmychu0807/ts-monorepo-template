@@ -7,8 +7,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "format": "prettier --write .",
+    "fmt": "prettier --write .",
     "lint": "eslint .",
+    "package01": "pnpm --filter package01",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
